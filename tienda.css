@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+div img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+ 
+html{
+height:100%;
+}
+main{
+width: 100%;
+height: auto;
+margin:0 auto;
+background: aliceblue;
+}
+.lateral{
+box-sizing: border-box;
+width: max(8%, 200px);
+display: inline-block;
+position: fixed;
+padding-top: 30px
+}
+.principal{
+margin-left: max(10%, 200px);
+padding: 0 10px;
+height: 100%;
+text-align: justify;
+background:black;
+}
+/*Hasta aquí ya tenemos un menu lateral fijo,
+ahora viene ponerlo bonito*/
+
+.lateral header{
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+border-bottom: 1px solid white;
+background: black
+}
+.lateral ul{
+list-style:none;
+padding-left:0;
+margin-top:0;
+}
+.lateral ul li{
+display:block;
+position: relative;
+padding: 8px 10px;
+margin-left:0;
+border-bottom:1px solid black
+}
+.lateral ul li a{
+color: black;
+text-decoration:none;
+}
+.lateral ul li a:after{
+content: ' ';
+position:absolute;
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+}
+.lateral ul li:hover, .lateral ul li:hover a{
+background: black;
+color: white;
+}

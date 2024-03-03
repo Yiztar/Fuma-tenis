@@ -1,0 +1,43 @@
+header{
+    background-color: rgba(252, 252, 252, 0.877);
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.dropdown-menu li a{
+    display:block;
+position: relative;
+padding: 8px 10px;
+margin-left:0;
+border-bottom:1px solid rgb(253, 252, 252)
+ 
+ 
+
+}
+
+.dropdown-menu li a{
+    font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+border-bottom: 1px solid rgb(3, 3, 3);
+background: black;
+
+}
+
+.dropdown-menu li{
+list-style:none;
+padding-left:0;
+margin-top:0;
+}
+
+.dropdown-menu li a{
+color: white;
+text-decoration:none;
+}
+
